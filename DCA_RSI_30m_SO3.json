@@ -1,0 +1,32 @@
+{
+  "strategy_name": "DCA_RSI_30m_SO3",
+  "params": {
+      "roi": {},
+      "stoploss": {
+          "stoploss": -0.99
+      },
+      "trailing": {
+          "trailing_stop": false,
+          "trailing_stop_positive": null,
+          "trailing_stop_positive_offset": 0.0,
+          "trailing_only_offset_is_reached": false
+      },
+      "max_open_trades": {
+          "max_open_trades": 1
+      },
+      "buy": {
+          "base_order_size": 100,
+          "rsi_condition": "less_than",
+          "safety_order_max_count": 3,
+          "price_deviation_initial": 0.023,
+          "rsi_period": 14,
+          "rsi_threshold": 30,
+          "safety_order_ratio": 2.0,
+          "safety_order_step_scale": 2.3,
+          "safety_order_volume_scale": 2.0,
+          "take_profit": 0.03
+      }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2026-01-05 05:51:47.641328+00:00"
+}

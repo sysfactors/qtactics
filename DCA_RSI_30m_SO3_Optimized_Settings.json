@@ -1,0 +1,290 @@
+{
+    "UNI/USDT_30m": {
+        "strategy_name": "DCA_RSI_30m_SO3",
+        "params": {
+            "roi": {},
+            "stoploss": {
+                "stoploss": -0.99
+            },
+            "trailing": {
+                "trailing_stop": false,
+                "trailing_stop_positive": null,
+                "trailing_stop_positive_offset": 0.0,
+                "trailing_only_offset_is_reached": false
+            },
+            "max_open_trades": {
+                "max_open_trades": 1
+            },
+            "buy": {
+                "base_order_size": 100,
+                "rsi_condition": "less_than",
+                "safety_order_max_count": 3,
+                "price_deviation_initial": 0.04,
+                "rsi_period": 14,
+                "rsi_threshold": 30,
+                "safety_order_ratio": 2.0,
+                "safety_order_step_scale": 2.2,
+                "safety_order_volume_scale": 2.0,
+                "take_profit": 0.043
+            }
+        },
+        "ft_stratparam_v": 1,
+        "export_time": "2026-01-05 04:52:47.528888+00:00"
+    },
+    "AAVE/USDT_30m": {
+        "strategy_name": "DCA_RSI_30m_SO3",
+        "params": {
+            "roi": {},
+            "stoploss": {
+                "stoploss": -0.99
+            },
+            "trailing": {
+                "trailing_stop": false,
+                "trailing_stop_positive": null,
+                "trailing_stop_positive_offset": 0.0,
+                "trailing_only_offset_is_reached": false
+            },
+            "max_open_trades": {
+                "max_open_trades": 1
+            },
+            "buy": {
+                "base_order_size": 100,
+                "rsi_condition": "less_than",
+                "safety_order_max_count": 3,
+                "price_deviation_initial": 0.043,
+                "rsi_period": 14,
+                "rsi_threshold": 30,
+                "safety_order_ratio": 2.0,
+                "safety_order_step_scale": 1.8,
+                "safety_order_volume_scale": 2.0,
+                "take_profit": 0.026
+            }
+        },
+        "ft_stratparam_v": 1,
+        "export_time": "2026-01-05 05:12:52.295930+00:00"
+    },
+    "SOL/USDT_30m": {
+        "strategy_name": "DCA_RSI_30m_SO3",
+        "params": {
+            "roi": {},
+            "stoploss": {
+                "stoploss": -0.99
+            },
+            "trailing": {
+                "trailing_stop": false,
+                "trailing_stop_positive": null,
+                "trailing_stop_positive_offset": 0.0,
+                "trailing_only_offset_is_reached": false
+            },
+            "max_open_trades": {
+                "max_open_trades": 1
+            },
+            "buy": {
+                "base_order_size": 100,
+                "rsi_condition": "less_than",
+                "safety_order_max_count": 3,
+                "price_deviation_initial": 0.023,
+                "rsi_period": 14,
+                "rsi_threshold": 30,
+                "safety_order_ratio": 2.0,
+                "safety_order_step_scale": 2.3,
+                "safety_order_volume_scale": 2.0,
+                "take_profit": 0.03
+            }
+        },
+        "ft_stratparam_v": 1,
+        "export_time": "2026-01-05 05:51:47.641328+00:00"
+    },
+    "LTC/USDT_30m": {
+        "strategy_name": "DCA_RSI_30m_SO3",
+        "params": {
+            "roi": {},
+            "stoploss": {
+                "stoploss": -0.99
+            },
+            "trailing": {
+                "trailing_stop": false,
+                "trailing_stop_positive": null,
+                "trailing_stop_positive_offset": 0.0,
+                "trailing_only_offset_is_reached": false
+            },
+            "max_open_trades": {
+                "max_open_trades": 1
+            },
+            "buy": {
+                "base_order_size": 100,
+                "rsi_condition": "less_than",
+                "safety_order_max_count": 3,
+                "price_deviation_initial": 0.026,
+                "rsi_period": 14,
+                "rsi_threshold": 35,
+                "safety_order_ratio": 1.8,
+                "safety_order_step_scale": 2.2,
+                "safety_order_volume_scale": 1.9,
+                "take_profit": 0.03
+            }
+        },
+        "ft_stratparam_v": 1,
+        "export_time": "2026-01-05 06:10:47.583296+00:00"
+    },
+    "DOT/USDT_30m": {
+        "strategy_name": "DCA_RSI_30m_SO3",
+        "params": {
+            "roi": {},
+            "stoploss": {
+                "stoploss": -0.99
+            },
+            "trailing": {
+                "trailing_stop": false,
+                "trailing_stop_positive": null,
+                "trailing_stop_positive_offset": 0.0,
+                "trailing_only_offset_is_reached": false
+            },
+            "max_open_trades": {
+                "max_open_trades": 1
+            },
+            "buy": {
+                "base_order_size": 100,
+                "rsi_condition": "less_than",
+                "safety_order_max_count": 3,
+                "price_deviation_initial": 0.049,
+                "rsi_period": 14,
+                "rsi_threshold": 25,
+                "safety_order_ratio": 2.0,
+                "safety_order_step_scale": 2.3,
+                "safety_order_volume_scale": 2.0,
+                "take_profit": 0.03
+            }
+        },
+        "ft_stratparam_v": 1,
+        "export_time": "2026-01-05 06:53:53.421060+00:00"
+    },
+    "ETC/USDT_30m": {
+        "strategy_name": "DCA_RSI_30m_SO3",
+        "params": {
+            "roi": {},
+            "stoploss": {
+                "stoploss": -0.99
+            },
+            "trailing": {
+                "trailing_stop": false,
+                "trailing_stop_positive": null,
+                "trailing_stop_positive_offset": 0.0,
+                "trailing_only_offset_is_reached": false
+            },
+            "max_open_trades": {
+                "max_open_trades": 1
+            },
+            "buy": {
+                "base_order_size": 100,
+                "rsi_condition": "less_than",
+                "safety_order_max_count": 3,
+                "price_deviation_initial": 0.024,
+                "rsi_period": 14,
+                "rsi_threshold": 25,
+                "safety_order_ratio": 2.0,
+                "safety_order_step_scale": 1.6,
+                "safety_order_volume_scale": 1.9,
+                "take_profit": 0.026
+            }
+        },
+        "ft_stratparam_v": 1,
+        "export_time": "2026-01-05 07:32:47.609204+00:00"
+    },
+    "SHIB/USDT_30m": {
+        "strategy_name": "DCA_RSI_30m_SO3",
+        "params": {
+            "roi": {},
+            "stoploss": {
+                "stoploss": -0.99
+            },
+            "trailing": {
+                "trailing_stop": false,
+                "trailing_stop_positive": null,
+                "trailing_stop_positive_offset": 0.0,
+                "trailing_only_offset_is_reached": false
+            },
+            "max_open_trades": {
+                "max_open_trades": 1
+            },
+            "buy": {
+                "base_order_size": 100,
+                "rsi_condition": "less_than",
+                "safety_order_max_count": 3,
+                "price_deviation_initial": 0.045,
+                "rsi_period": 14,
+                "rsi_threshold": 35,
+                "safety_order_ratio": 2.0,
+                "safety_order_step_scale": 1.7,
+                "safety_order_volume_scale": 1.9,
+                "take_profit": 0.026
+            }
+        },
+        "ft_stratparam_v": 1,
+        "export_time": "2026-01-05 07:51:57.422490+00:00"
+    },
+    "DOGE/USDT_30m": {
+        "strategy_name": "DCA_RSI_30m_SO3",
+        "params": {
+            "roi": {},
+            "stoploss": {
+                "stoploss": -0.99
+            },
+            "trailing": {
+                "trailing_stop": false,
+                "trailing_stop_positive": null,
+                "trailing_stop_positive_offset": 0.0,
+                "trailing_only_offset_is_reached": false
+            },
+            "max_open_trades": {
+                "max_open_trades": 1
+            },
+            "buy": {
+                "base_order_size": 100,
+                "rsi_condition": "less_than",
+                "safety_order_max_count": 3,
+                "price_deviation_initial": 0.039,
+                "rsi_period": 7,
+                "rsi_threshold": 30,
+                "safety_order_ratio": 2.0,
+                "safety_order_step_scale": 1.9,
+                "safety_order_volume_scale": 1.9,
+                "take_profit": 0.053
+            }
+        },
+        "ft_stratparam_v": 1,
+        "export_time": "2026-01-05 09:28:47.496139+00:00"
+    },
+    "TRX/USDT_30m": {
+        "strategy_name": "DCA_RSI_30m_SO3",
+        "params": {
+            "roi": {},
+            "stoploss": {
+                "stoploss": -0.99
+            },
+            "trailing": {
+                "trailing_stop": false,
+                "trailing_stop_positive": null,
+                "trailing_stop_positive_offset": 0.0,
+                "trailing_only_offset_is_reached": false
+            },
+            "max_open_trades": {
+                "max_open_trades": 1
+            },
+            "buy": {
+                "base_order_size": 100,
+                "rsi_condition": "less_than",
+                "safety_order_max_count": 3,
+                "price_deviation_initial": 0.033,
+                "rsi_period": 7,
+                "rsi_threshold": 30,
+                "safety_order_ratio": 2.0,
+                "safety_order_step_scale": 1.6,
+                "safety_order_volume_scale": 2.0,
+                "take_profit": 0.049
+            }
+        },
+        "ft_stratparam_v": 1,
+        "export_time": "2026-01-05 09:44:47.498263+00:00"
+    }
+}
