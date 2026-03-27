@@ -1,0 +1,31 @@
+{
+  "strategy_name": "SmoothedRsiEma",
+  "params": {
+    "roi": {},
+    "stoploss": {
+      "stoploss": -0.2
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "leverage_level": 1,
+      "atr_mult": 3.5,
+      "holding_days": 6,
+      "risk_ratio": 2,
+      "rsi_length": 14,
+      "rsi_lower_threshold": 35,
+      "rsi_upper_threshold": 65
+    },
+    "sell": {},
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2025-10-12 12:27:52.497479+00:00"
+}

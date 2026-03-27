@@ -1,0 +1,31 @@
+{
+  "strategy_name": "AlligatorAdxCmo",
+  "params": {
+    "roi": {},
+    "stoploss": {
+      "stoploss": -0.2
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "leverage_level": 1,
+      "mouth_closed_lookback": 2,
+      "adx_threshold": 20,
+      "atr_mult": 2.5,
+      "cmo_threshold": 25,
+      "ema_period": 200,
+      "risk_ratio": 2
+    },
+    "sell": {},
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2025-08-23 06:40:32.626443+00:00"
+}

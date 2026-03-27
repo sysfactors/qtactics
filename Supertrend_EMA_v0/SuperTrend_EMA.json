@@ -1,0 +1,31 @@
+{
+  "strategy_name": "SuperTrend_EMA",
+  "params": {
+    "roi": {},
+    "stoploss": {
+      "stoploss": -0.2
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "leverage_level": 1,
+      "atr_threshold_low_pct": 0.3,
+      "atr_window": 100,
+      "ema_length": 100,
+      "max_distance_percent": 0.06,
+      "supertrend_length": 13,
+      "supertrend_multiplier": 2
+    },
+    "sell": {},
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2025-04-11 08:44:21.519888+00:00"
+}

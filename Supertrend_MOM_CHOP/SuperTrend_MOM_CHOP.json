@@ -1,0 +1,29 @@
+{
+  "strategy_name": "SuperTrend_MOM_CHOP",
+  "params": {
+    "roi": {},
+    "stoploss": {
+      "stoploss": -0.25
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "leverage_level": 1,
+      "atr_mult": 2.5,
+      "chop_threshold": 45,
+      "momentum_threshold": 0.1,
+      "risk_ratio": 2.5,
+      "supertrend_length": 11,
+      "supertrend_multiplier": 4
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2026-01-09 14:07:27.756955+00:00"
+}

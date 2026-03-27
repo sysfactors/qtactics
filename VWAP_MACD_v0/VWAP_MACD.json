@@ -1,0 +1,30 @@
+{
+  "strategy_name": "VWAP_MACD",
+  "params": {
+    "roi": {},
+    "stoploss": {
+      "stoploss": -0.25
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "leverage_level": 1,
+      "atr_mult": 2,
+      "macd_cross_window": 5,
+      "risk_ratio": 3,
+      "trend_filter_enabled": true,
+      "vwap_cross_window": 15
+    },
+    "sell": {},
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2025-05-29 03:01:25.713625+00:00"
+}

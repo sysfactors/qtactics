@@ -1,0 +1,32 @@
+{
+  "strategy_name": "SMA_ADX_Strategy",
+  "params": {
+    "roi": {},
+    "stoploss": {
+      "stoploss": -0.25
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "leverage_level": 1,
+      "adx_period": 6,
+      "adx_threshold": 25,
+      "atr_mult": 0.7,
+      "atr_price_threshold": 0.03,
+      "cross_rolling_window": 3,
+      "long_sma_period": 100,
+      "short_sma_period": 20
+    },
+    "sell": {},
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2025-03-12 07:29:39.151789+00:00"
+}

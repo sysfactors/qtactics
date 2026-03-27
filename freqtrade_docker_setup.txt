@@ -1,0 +1,43 @@
+# Freqtrade and Docker Setup Script
+
+# Documentation Links:
+# Docker Installation Guide: https://docs.docker.com/engine/install/ubuntu/
+# Freqtrade Docker Quick Start Guide: https://www.freqtrade.io/en/stable/docker_quickstart/#docker-quick-start
+
+# Step 1: Update and Upgrade the System
+sudo apt update
+sudo apt upgrade -y
+sudo reboot
+
+# Step 2: Remove Conflicting Packages
+for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do 
+  sudo apt-get remove -y $pkg
+done
+
+# Step 3: Set Up Docker’s APT Repository
+sudo apt-get update
+sudo apt-get install -y ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+
+# Step 4: Install Docker Engine
+sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+# Verify Docker Installation
+sudo docker run hello-world
+
+# Step 5: Set Up Freqtrade
+mkdir ft_userdata
+cd ft_userdata/
+curl https://raw.githubusercontent.com/freqtrade/freqtrade/stable/docker-compose.yml -o docker-compose.yml
+
+# Pull Freqtrade Docker Image
+sudo docker compose pull
+
+# Create Freqtrade User Directory
+sudo docker compose run --rm freqtrade create-userdir --userdir user_data

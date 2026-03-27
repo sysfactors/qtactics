@@ -1,0 +1,30 @@
+{
+  "strategy_name": "Donchian_EMA_ADX_CHOP",
+  "params": {
+    "roi": {},
+    "stoploss": {
+      "stoploss": -0.2
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "leverage_level": 1,
+      "adx_threshold": 20,
+      "atr_mult": 3,
+      "chop_threshold": 35,
+      "donchian_period": 25,
+      "ema_period": 50
+    },
+    "sell": {},
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2025-08-15 09:31:42.508664+00:00"
+}

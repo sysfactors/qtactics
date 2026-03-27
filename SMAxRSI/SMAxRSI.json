@@ -1,0 +1,32 @@
+{
+  "strategy_name": "SMAxRSI",
+  "params": {
+    "roi": {},
+    "stoploss": {
+      "stoploss": -0.25
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "leverage_level": 1,
+      "atr_mult": 3,
+      "holding_days": 5,
+      "max_candle_size": 0.03,
+      "risk_ratio": 2.5,
+      "rsi_length": 14,
+      "rsi_lower_threshold": 35,
+      "rsi_upper_threshold": 65
+    },
+    "sell": {},
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2025-03-26 23:26:19.652390+00:00"
+}

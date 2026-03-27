@@ -1,0 +1,30 @@
+{
+  "strategy_name": "EMA8_13_21_MACD_Strategy",
+  "params": {
+    "roi": {},
+    "stoploss": {
+      "stoploss": -0.25
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "leverage_level": 1,
+      "ema_rolling_window": 4,
+      "macd_rolling_window": 10,
+      "risk_ratio": 2.5,
+      "stop_loss_buffer": 0.008,
+      "swing_point_lookback": 3
+    },
+    "sell": {},
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2025-02-24 11:54:55.858286+00:00"
+}
